@@ -12,6 +12,11 @@ ROSE plays a crucial role in biopsy/FNA procedures by providing immediate feedba
 
 Our study utilized a retrospective cohort analysis approach, employing Python’s natural language processing libraries to analyze pathology reports and concurrent surgical reports. By extracting diagnostic and metastatic cancer type data, we were able to calculate and stratify the adequacy rates of bone biopsy/FNA by tumor type. A two-proportion Z-test was used to determine statistical significance when comparing these rates to the overall adequacy statistics for all specimens.
 
+## Results
+![Cases from ROSE to Final Surgical Diagnosis](https://github.com/hbilal-md/HemePath-GPT-4/blob/main/normalized_CM.png)
+
+![Adequacy Rates by Tumor Type]()
+
 ## Repository Contents
 
 - `Jupyter Notebooks`: Contains the Python notebooks used for data analysis, including data cleaning, processing, and statistical analysis.
