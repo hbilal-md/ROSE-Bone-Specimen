@@ -1,0 +1,177 @@
+[
+    {
+        "patterns": [
+            "benign bone",
+            "bone fragments",
+            "no evidence of malignancy",
+            "no morphologic evidence",
+            "no evidence of metastatic carcinoma",
+            "no evidence of carcinoma",
+            "no evidence of metastatic",
+            "negative for metastatic carcinoma",
+            "no carcinoma",
+            "no tumor",
+            "osteoid osteoma",
+            "no evidence of lymphoma or carcinoma",
+            "no evidence of metastatic carcinoma",
+            "bone marrow elements",
+            "bone and bone marrow"
+        ],
+        "labels": {
+            "cancer_status": "Benign",
+            "type_of_cancer": null,
+            "site_of_origin": null
+        }
+    },
+    {
+        "patterns": [
+            "high grade undifferentiated neoplasm",
+            "metastatic carcinoma",
+            "carcinoma with glandular features",
+            "tumor cells are",
+            "metastatic adenocarcinoma",
+            "malignant spindle cell and epithelioid",
+            "metastatic poorly differentiated adenocarcinoma",
+            "metastatic squamous cell carcinoma",
+            "metastatic adenoid cystic carcinoma"
+        ],
+        "labels": {
+            "cancer_status": "Cancer",
+            "type_of_cancer": "Carcinoma",
+            "site_of_origin": null
+        }
+    },
+    {
+        "patterns": [
+            "non-diagnostic"
+        ],
+        "labels": {
+            "cancer_status": "Non-Diagnostic",
+            "type_of_cancer": null,
+            "site_of_origin": null
+        }
+    },
+    {
+        "patterns": [
+            "mammary origin",
+            "breast primary",
+            "breast origin",
+            "mammary primary"
+        ],
+        "labels": {
+            "cancer_status": "Cancer",
+            "type_of_cancer": "Carcinoma",
+            "site_of_origin": "Breast"
+        }
+    },
+    {
+        "patterns": [
+            "plasma cell neoplasm",
+            "classical hodgkin lymphoma",
+            "diffuse large b-cell"
+        ],
+        "labels": {
+            "cancer_status": "Cancer",
+            "type_of_cancer": "Lymphoma",
+            "site_of_origin": null
+        }
+    },
+    {
+        "patterns": [
+            "primary prostatic",
+            "metastatic prostatic adenocarcinoma",
+            "prostate origin",
+            "prostatic primary",
+            "prostate primary"
+        ],
+        "labels": {
+            "cancer_status": "Cancer",
+            "type_of_cancer": "Carcinoma",
+            "site_of_origin": "Prostate"
+        }
+    },
+    {
+        "patterns": [
+            "consistent with lung primary",
+            "metastatic non-small cell carcinoma",
+            "pulmonary origin",
+            "metastatic small cell carcinoma"
+        ],
+        "labels": {
+            "cancer_status": "Cancer",
+            "type_of_cancer": "Carcinoma",
+            "site_of_origin": "Lung"
+        }
+    },
+    {
+        "patterns": [
+            "clear cell renal cell carcinoma",
+            "renal cell carcinoma",
+            "renal origin",
+            "renal primary"
+        ],
+        "labels": {
+            "cancer_status": "Cancer",
+            "type_of_cancer": "Carcinoma",
+            "site_of_origin": "Renal"
+        }
+    },
+    {
+        "patterns": [
+            "metastatic melanoma",
+            "malignant melanoma"
+        ],
+        "labels": {
+            "cancer_status": "Cancer",
+            "type_of_cancer": "Melanoma",
+            "site_of_origin": null
+        }
+    },
+    {
+        "patterns": [
+            "malignant spindle",
+            "metastatic spindle",
+            "metastatic synovial sarcoma",
+            "metastatic rhabdomyosarcoma",
+            "spindle cell proliferation",
+            "atypical spindle cells"
+        ],
+        "labels": {
+            "cancer_status": "Cancer",
+            "type_of_cancer": "Sarcoma",
+            "site_of_origin": null
+        }
+    },
+    {
+        "patterns": [
+            "thyroid carcinoma",
+            "thyroid primary",
+            "thyroid origin"
+        ],
+        "labels": {
+            "cancer_status": "Cancer",
+            "type_of_cancer": "Carcinoma",
+            "site_of_origin": "Thyroid"
+        }
+    },
+    {
+        "patterns": [
+            "primary urothelial carcinoma"
+        ],
+        "labels": {
+            "cancer_status": "Cancer",
+            "type_of_cancer": "Carcinoma",
+            "site_of_origin": "Urothelial"
+        }
+    },
+    {
+        "patterns": [
+            "metastatic rhabdomyosarcoma"
+        ],
+        "labels": {
+            "cancer_status": "Cancer",
+            "type_of_cancer": "Rhabdomyosarcoma",
+            "site_of_origin": null
+        }
+    }
+]
